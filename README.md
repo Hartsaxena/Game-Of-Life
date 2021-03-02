@@ -23,10 +23,15 @@ Be aware that these steps don't have an order to them, the program doesn't evalu
 Instructions:
 
 Click and drag your mouse around the grid to make a cube Alive or Dead.
+
 Use the "enter" key to move on to the next generation (You can hold this button to keep going).
+
 Similarly, you can use the "h" key to move on to the next generation as fast as possible (Using the "enter" key has a limit to the speed, although it's very slow when dealing with bigger grids. The "h" key completely removes the speed limit.)
+
 Use the "s" key to save the board to a file named "save.board" in the "saves" folder. Inside this folder, you'll find some boards that I've added into the program by default, so feel free to mess around with those and see what they do. Be aware that closing the program doesn't automatically save your board. Remember to save your progress!
+
 If you want to import a different file, simply delete the "save.board" file (or rename it if you want to save it for later) and name the file you want to import to "save.board"
+
 
 
 Additionally, you can generate a blank board by running the "saveboardgen.py" file, which will prompt for x and y coordinates of the blank board and create the board in the "generated_boards" folder.
